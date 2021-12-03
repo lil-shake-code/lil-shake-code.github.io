@@ -6868,7 +6868,7 @@ function _Y9(_A6, _B6) {
 
 function __9(_A6, _B6) {
     {
-        sio_connect_by_url("https://3.135.240.71:3000");
+        sio_connect_by_url("3.139.177.117:3000");
         sio_addEvent("create_player");
         sio_addEvent("create_player_other");
         sio_addEvent("destroy_player");
