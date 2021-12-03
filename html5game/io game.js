@@ -6868,7 +6868,7 @@ function _Y9(_A6, _B6) {
 
 function __9(_A6, _B6) {
     {
-        sio_connect_by_url("http://3.135.240.71:3000");
+        sio_connect_by_url("https://3.135.240.71:3000");
         sio_addEvent("create_player");
         sio_addEvent("create_player_other");
         sio_addEvent("destroy_player");
@@ -51015,7 +51015,11 @@ function _fD2(_y81) {
 /*@constructor */
 /*@constructor */
 /*@constructor */
-/*@constructor */ /*@constructor */ /*@constructor */ /*@constructor */ /*@constructor */
+/*@constructor */
+/*@constructor */
+/*@constructor */
+/*@constructor */
+/*@constructor */
 function _vE2(_fj) { _Rp("splash_set_color()") }
 var _wE2 = _vE2;
 var _xE2 = !0;
