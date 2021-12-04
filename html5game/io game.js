@@ -7658,7 +7658,7 @@ function __3(_A6, _B6) {
     _z8(16777215);
     _9a(1);
     _ba(yyfdivide(__7(_A6._9b), 2), yyftime(__7(_A6._8b),
-        0.9), "Enter username and select sprite ", _A6._8a, _A6._8a, 0);
+        0.9), "Enter username and select loadout ", _A6._8a, _A6._8a, 0);
     _ba(yyfdivide(__7(_A6._9b), 2), yyftime(__7(_A6._8b), 0.95), " Set zoom level to low for better graphics", _A6._8a, _A6._8a, 0);
     _ia(_A6, 55, 0, yyftime(__7(_A6._9b), 0.8), yyftime(__7(_A6._8b), 0.05), yyftime(0.2, __7(_A6._8a)), yyftime(0.2, __7(_A6._8a)), 0, 16777215, 1);
     _ia(_A6, 7, 0, yyftime(__7(_A6._9b), 0.85), yyftime(__7(_A6._8b), 0.05), yyftime(0.2, __7(_A6._8a)), yyftime(0.2, __7(_A6._8a)), 0, 16777215, 1);
