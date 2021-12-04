@@ -6868,7 +6868,7 @@ function _Y9(_A6, _B6) {
 
 function __9(_A6, _B6) {
     {
-        sio_connect_by_url("c614-223-184-85-17.in.ngrok.io");
+        sio_connect_by_url("93c4-18-218-191-197.ngrok.io");
         sio_addEvent("create_player");
         sio_addEvent("create_player_other");
         sio_addEvent("destroy_player");
