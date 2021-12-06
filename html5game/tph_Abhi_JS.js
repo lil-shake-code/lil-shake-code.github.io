@@ -44,7 +44,7 @@ function showRWP(showAdFn) {
 
 
 
-function Reward(num) {
+function AdsenseReward(num) {
 
 
     adBreak({
@@ -62,7 +62,7 @@ function Reward(num) {
 }
 
 
-function Interstitial() {
+function AdsenseInterstitial() {
 
     adBreak({
         type: 'next', // The type of this placement
