@@ -1,5 +1,5 @@
 function Init_crazygames() {
-    const crazysdk = window.CrazyGames.CrazySDK.getInstance(); //Getting the SDK
+    const crazysdk = Window.CrazyGames.CrazySDK.getInstance(); //Getting the SDK
     crazysdk.init(); //Initializing the SDK, call as early as possible
 }
 
