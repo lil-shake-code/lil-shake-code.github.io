@@ -52746,7 +52746,9 @@ function _uG2(_Rb1) {
 /*@constructor */
 /*@constructor */
 /*@constructor */
-/*@constructor */ /*@constructor */ /*@constructor */ /*@constructor */ /*@constructor */
+/*@constructor */
+/*@constructor */
+/*@constructor */ /*@constructor */ /*@constructor */
 function _KH2(_pm) { _Zs("splash_set_color()") }
 var _LH2 = _KH2;
 var _MH2 = !0;
@@ -75135,4 +75137,3 @@ function _Vv3() {
     if (_6L._G5 && _6L._G5._H5) { _QM() }
 }
 if (_6L._G5 && _6L._G5._H5) { _QM() }
-}
