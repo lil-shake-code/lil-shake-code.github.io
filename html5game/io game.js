@@ -7298,7 +7298,7 @@ function _gb(_o6, _p6) {
 
 function _ib(_o6, _p6) {
     {
-        sio_connect_by_url("https://www.gatdamn.io:3000");
+        sio_connect_by_url("https://server.gatdamn.io:3000");
         sio_addEvent("create_player");
         sio_addEvent("create_player_other");
         sio_addEvent("destroy_player");
@@ -7908,7 +7908,7 @@ function _b3(_o6, _p6) {
             _Kb(yyfdivide(_T7(_y7._Nb()), 2), yyftime(_T7(_y7._Ob()), 0.2), "Try moving around with arrow keys.", yyftime(_T7(_Hb), 0.7), yyftime(_T7(_Hb), 0.7), 0);
             _Kb(yyfdivide(_T7(_y7._Nb()), 2), yyftime(_T7(_y7._Ob()), 0.23), "Use numbers 1 - 9 to choose a gun.", yyftime(_T7(_Hb), 0.7), yyftime(_T7(_Hb), 0.7), 0);
             _Kb(yyfdivide(_T7(_y7._Nb()), 2), yyftime(_T7(_y7._Ob()),
-                0.26), "Click on W to view more info.", yyftime(_T7(_Hb), 0.7), yyftime(_T7(_Hb), 0.7), 0);
+                0.26), "Press 1-9 to view more info.", yyftime(_T7(_Hb), 0.7), yyftime(_T7(_Hb), 0.7), 0);
         }
     };
 }
@@ -52748,7 +52748,9 @@ function _uG2(_Rb1) {
 /*@constructor */
 /*@constructor */
 /*@constructor */
-/*@constructor */ /*@constructor */ /*@constructor */
+/*@constructor */
+/*@constructor */
+/*@constructor */
 function _KH2(_pm) { _Zs("splash_set_color()") }
 var _LH2 = _KH2;
 var _MH2 = !0;
