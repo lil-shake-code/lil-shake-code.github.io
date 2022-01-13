@@ -116,6 +116,26 @@
     </div>
 
     <!-- Run the game code -->
+    <script type="application/javascript">
+        window["GD_OPTIONS"] = {
+            "gameId": "705d1e0584364a459a6e631a0d2c1688",
+            "onEvent": function(ev) {
+                var map = {};
+                map["id"] = "gamedistribution";
+                map["event"] = ev.name;
+                GMS_API.send_async_event_social(map);
+            }
+        }
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://html5.api.gamedistribution.com/main.min.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'gamedistribution-jssdk'));
+    </script>
     <script type="text/javascript" src="html5game/io game.js?MPZAC=914417256"></script>
     <script>
         window.onload = GameMaker_Init;
