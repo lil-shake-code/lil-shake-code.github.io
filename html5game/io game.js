@@ -53820,7 +53820,8 @@ function _BG2(_Yb1) {
 /*@constructor */
 /*@constructor */
 /*@constructor */
-/*@constructor */ /*@constructor */
+/*@constructor */
+/*@constructor */
 function _RH2(_vm) { _4t("splash_set_color()") }
 var _SH2 = _RH2;
 var _TH2 = !0;
