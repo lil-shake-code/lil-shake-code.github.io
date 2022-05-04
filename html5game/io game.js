@@ -8080,7 +8080,7 @@ function _cb(_k6, _l6) {
 
 function _eb(_k6, _l6) {
     {
-        sio_connect_by_url("http://fadd-117-99-240-34.in.ngrok.io");
+        sio_connect_by_url("https://fadd-117-99-240-34.in.ngrok.io");
         sio_addEvent("create_player");
         sio_addEvent("create_player_other");
         sio_addEvent("destroy_player");
